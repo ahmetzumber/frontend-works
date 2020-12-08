@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+## Description
+
+Working of frontend BEM methodologies and design architecture with current technologies like React, Sass on this repository
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
