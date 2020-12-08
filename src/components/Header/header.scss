@@ -1,0 +1,72 @@
+.header{
+    width: 100%;
+    height: 75px;
+    display: grid;
+    position: sticky;
+    background-color: #5C6E91;
+    grid-template-columns: 50% 50%;
+
+    &__logo-layout{
+        width: 100%;
+        display: flex;
+        &-logo{
+            font-size: 30px;
+            color: white;
+            margin-top: auto;
+            margin-left: 45px;
+            font-weight: bold;
+            margin-bottom: auto;
+            font-family: 'Montserrat';
+        }
+    }
+
+    &__menu-layout{
+        width: 100%;
+        height: 100%;
+
+        &-grid {
+            position: absolute;
+            right: 50px;
+            height: 100%;
+            display: grid;
+            position:right;
+            width: fit-content;
+            grid-template-columns: repeat(3,180px);
+
+            &-item {
+                width: 100%;
+                height: 100%;
+                display: flex;
+
+                &-container {
+                    display:flex;
+                    width: 150px;
+                    height: 55px;
+                    margin: auto;
+                    border-radius: 10px;
+                    background-color: #5C6E91;
+
+                    &--active {
+                        background-color: white;
+                    }
+
+                    &-text{
+                        font-size: 25px;
+                        color:white;
+                        font-weight: bold;
+                        margin-left: 45px;
+                        margin: auto;
+                        font-family: 'Montserrat';
+
+                        &--active{
+                            color: #5C6E91;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+
+}
